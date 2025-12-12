@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    padding: 90px 0;
+}
+
+.calculator {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px black;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font: normal 4rem serif;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.calculator button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+body {
+    background-image: url("img/fundo.jpg");
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    padding: 90px 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+
+.display {
+    height: 80px;
+    background: #222;
+    color: #fff;
+    font-size: 32px;
+    padding: 10px;
+    text-align: right;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+/* --- BOTÕES COM IMAGEM NO FUNDO E NÚMERO NA FRENTE --- */
+.btn {
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* imagem de fundo */
+.btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    filter: blur(1px);
+    z-index: -1;
+}
+
+/* número sempre na frente */
+.btn span, .btn {
+    position: relative;
+    z-index: 2;
+}
+
+.btn:active {
+    background: #ddd;
+}
+
+/* IMAGENS DE NÚMEROS */
+.n0::before { background-image: url("img/imagem\ 1.jpg"); }
+.n1::before { background-image: url("img/imagem\ 2.jpg"); }
+.n2::before { background-image: url("img/imagem\ 3.jpg"); }
+.n3::before { background-image: url("img/imagem4.jpg"); }
+.n4::before { background-image: url("img/imagem\ 5.jpg"); }
+.n5::before { background-image: url("img/fundo\ 6.jpg"); }
+.n6::before { background-image: url("img/imagem\ 7.jpg"); }
+.n7::before { background-image: url("img/imagem\ 8.jpg"); }
+.n8::before { background-image: url("img/imagem\ 9.jpg"); }
+.n9::before { background-image: url("img/imagem\ 10.jpg"); }
+
+/* IMAGENS DOS OPERADORES */
+.add::before { background-image: url("img/imagem\ 11.jpg"); }
+.sub::before { background-image: url("img/imagem\ 12.jpg"); }
+.mul::before { background-image: url("img/imagem\ 13.jpg"); }
+.div::before { background-image: url("img/imagem\ 14.jpg"); }
+.dec::before { background-image: url("img/imagem\ 15.jpg"); }
+.inv::before { background-image: url("img/imagem\ 16.jpg"); }
+.igual::before { background-image: url("img/imagem\ 17.jpg"); }
+
+/* FUNÇÕES */
+.ce::before { background-image: url("img/imagem\ \ 18.jpg"); }
+.c::before { background-image: url("img/imagem\ 19.jpg"); }
+.back::before { background-image: url("img/imagem\ 20.jpg"); }
+
+.btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: 95%;       /* imagem maior */
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1.45;              /* aparece mais */
+    filter: none;               /* imagem nítida */
+    z-index: -1;
+}
+
+/* imagem mais visível */
+.btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1.0;
+    filter: none;
+    z-index: -1;
+}*/
+
+body {
+    background-image: url('img/capa 1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
